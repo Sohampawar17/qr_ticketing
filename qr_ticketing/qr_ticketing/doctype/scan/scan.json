@@ -1,0 +1,78 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "S.####",
+ "creation": "2023-09-21 17:42:55.398633",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "scan",
+  "qrcode_data",
+  "current_time",
+  "date",
+  "event_name",
+  "user_name"
+ ],
+ "fields": [
+  {
+   "fieldname": "qrcode_data",
+   "fieldtype": "Data",
+   "label": "QRCODE DATA"
+  },
+  {
+   "fieldname": "scan",
+   "fieldtype": "Button",
+   "label": "Scan"
+  },
+  {
+   "fieldname": "current_time",
+   "fieldtype": "Time",
+   "label": " Time"
+  },
+  {
+   "default": "Today",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "event_name",
+   "fieldtype": "Data",
+   "label": "Event Name",
+   "length": 50
+  },
+  {
+   "fieldname": "user_name",
+   "fieldtype": "Data",
+   "label": "User Name",
+   "length": 50
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-10-07 16:44:52.392789",
+ "modified_by": "Administrator",
+ "module": "Qr Ticketing",
+ "name": "scan",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

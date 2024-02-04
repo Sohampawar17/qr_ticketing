@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include qr_ticketing *.css
+recursive-include qr_ticketing *.csv
+recursive-include qr_ticketing *.html
+recursive-include qr_ticketing *.ico
+recursive-include qr_ticketing *.js
+recursive-include qr_ticketing *.json
+recursive-include qr_ticketing *.md
+recursive-include qr_ticketing *.png
+recursive-include qr_ticketing *.py
+recursive-include qr_ticketing *.svg
+recursive-include qr_ticketing *.txt
+recursive-exclude qr_ticketing *.pyc
